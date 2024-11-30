@@ -5,7 +5,7 @@ import axios from "axios";
 import {useNavigate} from "react-router-dom";
 import { Link } from 'react-router-dom';
 import './Login.css';
-import logo from "../../src/assets/images/logo-picapau.png";
+import logo from "../../assets/images/logo-picapau.png";
 
 const Login = () => {
 
