@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {setDados, getDados} from "../../components/local.jsx"
+import {setDados} from "../../components/local.jsx"
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import {useNavigate} from "react-router-dom";

@@ -1,11 +1,11 @@
 import React from 'react';
-import {useEffect, useState} from "react";
-import {setDados, getDados} from "../../components/local.jsx"
+import {useState} from "react";
+import {setDados} from "../../components/local.jsx"
 import axios from "axios";
 import {useNavigate} from "react-router-dom";
 import { Link } from 'react-router-dom';
 import './Login.css';
-import logo from "../src/assets/images/logo-picapau.png";
+import logo from "../../src/assets/images/logo-picapau.png";
 
 const Login = () => {
 

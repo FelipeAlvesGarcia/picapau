@@ -2,7 +2,6 @@ import { useState } from "react";
 import { getDados } from "../../components/local";
 import axios from "axios";
 import Headeri from "../../components/Headeri";
-import { Navigate } from "react-router-dom";
 
 function CadastrarCurriculo() {
     const [nome, setNome] = useState("");

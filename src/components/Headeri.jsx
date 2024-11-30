@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {setDados, getDados} from "./local.jsx"
+import {getDados} from "./local.jsx"
 import './Headeri.css';
 import picaPau from "../assets/images/logo-picapau.png"
 

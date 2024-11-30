@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { getDados, setDados } from "../../components/local.jsx";
+import { getDados } from "../../components/local.jsx";
 import { useState, useEffect } from "react";
 import Headeri from '../../components/Headeri';
 import './lider.css';

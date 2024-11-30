@@ -1,7 +1,7 @@
 import React from 'react';
 import './Recrutamento.css';
 import Headeri from '../../components/Headeri';
-import {setDados, getDados} from "../../components/local.jsx"
+import {getDados} from "../../components/local.jsx"
 import {useEffect, useState} from "react"
 import axios from "axios";
 

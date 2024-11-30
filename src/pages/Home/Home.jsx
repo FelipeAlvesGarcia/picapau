@@ -1,14 +1,8 @@
 import React from 'react';
 import './Home.css';
 import Headeri from '../../components/Headeri';
-import {useEffect, useState} from "react"
-import axios from "axios";
-import {setDados, getDados} from "../../components/local.jsx"
 
 const Home = () => {
-
-  
-
 
   return (
     <div className="home-container">

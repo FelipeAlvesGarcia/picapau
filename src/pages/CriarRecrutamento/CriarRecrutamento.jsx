@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './CriarRecrutamento.css';
 import Headeri from '../../components/Headeri';
-import {setDados, getDados} from "../../components/local.jsx"
+import {getDados} from "../../components/local.jsx"
 import axios from 'axios';
 
 function CriarRecrutamento (){
