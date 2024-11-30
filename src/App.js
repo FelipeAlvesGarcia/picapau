@@ -1,8 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 
 import React from 'react';
-import { Outlet } from 'react-router-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Login from './pages/Login/Login.jsx';
@@ -19,7 +17,6 @@ import CadastrarCurriculo from './pages/CadastrarCurruculo/CadastrarCurriculo.js
 const App = () => {
   return (
     <>
-      <Outlet/>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Login />} />
@@ -32,6 +29,7 @@ const App = () => {
           <Route path="/lider" element={<Lider />} />
           <Route path="/curriculo/cadastrar" element={<CadastrarCurriculo />} />
           <Route path="/recrutamento/detalhes/:id" element={<RecrutamentoDetalhes />} />
+          <Route path="*" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </>

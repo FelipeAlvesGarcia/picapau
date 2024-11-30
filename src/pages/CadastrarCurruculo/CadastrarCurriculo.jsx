@@ -58,7 +58,7 @@ function CadastrarCurriculo() {
                     </div>
                     
                     <form onSubmit={funCadastrarCurriculo} className="row d-flex justify-content-center">
-                        <div className="col-12 mb-4">
+                        <div className="col-12 mb-4 cadastro-input">
                             <label className="ms-2">Nome</label>
                             <input
                                 type="text"
@@ -68,7 +68,7 @@ function CadastrarCurriculo() {
                                 className="w-100 p-2"
                             />    
                         </div>
-                        <div className="col-12 mb-4">
+                        <div className="col-12 mb-4 cadastro-input">
                             <label className="ms-2">Email</label>
                             <input
                                 type="text"
@@ -78,7 +78,7 @@ function CadastrarCurriculo() {
                                 className="w-100 p-2"
                             />    
                         </div>
-                        <div className="col-12 mb-4">
+                        <div className="col-12 mb-4 cadastro-input">
                             <label className="ms-2">CPF</label>
                             <input
                                 type="text"
@@ -97,8 +97,8 @@ function CadastrarCurriculo() {
                                 className="w-100 p-2"
                             />    
                         </div>
-                        <div className="col-4 my-5">
-                            <input type="submit" className="p-3 w-100" />
+                        <div className="col-6 col-sm-4 my-5">
+                            <button type="submit" className="p-3 pb-4 w-100 cadastro-button" >Cadastrar</button>
                         </div>
                     </form>        
                 </div>

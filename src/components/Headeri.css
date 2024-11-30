@@ -1,6 +1,7 @@
 /* Estilos principais */
 .headeri {
   padding: 10px 20px;
+  padding-right:3rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -55,6 +56,7 @@
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
+
   }
 
   .nav-links {
@@ -87,12 +89,12 @@
   }
 
   .hamburger.open .line:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: rotate(45deg) translate(7.5px, 7.5px);
   }
   .hamburger.open .line:nth-child(2) {
     opacity: 0; /* Esconde a linha do meio */
   }
   .hamburger.open .line:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
+    transform: rotate(-45deg) translate(7.5px, -7.5px);
   }
 }
