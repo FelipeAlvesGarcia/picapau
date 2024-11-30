@@ -11,7 +11,7 @@ import Perfil from './pages/Perfil/Perfil.jsx';
 import Equipe from './pages/Equipe/Equipe.jsx';
 import Lider from './pages/lider/Lider.jsx';
 import RecrutamentoDetalhes from './pages/RecrutamentoDetalhes/RecrutamentoDetalhes.jsx';
-import CadastrarCurriculo from './pages/cadastrarCurruculo/cadastrarCurriculo.jsx';
+import CadastrarCurriculo from './pages/CadastrarCurruculo/CadastrarCurriculo.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,15 +19,15 @@ const router = createBrowserRouter([
     element: <App />, 
     children: [
       {path: "/", element: <Login /> },
-      {path: "cadastro", element: <Cadastro /> },
-      {path: "home", element: <Home />},
-      {path: "recrutamento", element: <Recrutamento />},
-      {path: "recrutamento/criar", element: <CriarRecrutamento />},
-      {path: "perfil", element: <Perfil />},
-      {path: "equipe", element: <Equipe />},
-      {path: "lider", element: <Lider />},
-      {path: "Curriculo/Cadastrar", element: <CadastrarCurriculo />},
-      {path: "recrutamento/detalhes/:id", element: <RecrutamentoDetalhes />}
+      {path: "/cadastro", element: <Cadastro /> },
+      {path: "/home", element: <Home />},
+      {path: "/recrutamento", element: <Recrutamento />},
+      {path: "/recrutamento/criar", element: <CriarRecrutamento />},
+      {path: "/perfil", element: <Perfil />},
+      {path: "/equipe", element: <Equipe />},
+      {path: "/lider", element: <Lider />},
+      {path: "/curriculo/cadastrar", element: <CadastrarCurriculo />},
+      {path: "/recrutamento/detalhes/:id", element: <RecrutamentoDetalhes />}
     ]
   }
 ]);

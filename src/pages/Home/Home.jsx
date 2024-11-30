@@ -19,16 +19,16 @@ const Home = () => {
         <div className="option-card">
           <h3>Inserir Currículo ao Banco de Dados</h3>
           <p>Adicione currículos diretamente ao nosso banco de dados para futuras oportunidades.</p>
-          <button onClick={() => window.location.href = '/Curriculo/Cadastrar'}>
+          <a href="/curriculo/cadastrar">
             Inserir Currículo
-          </button>
+          </a>
         </div>
         <div className="option-card">
           <h3>Criar Recrutamento</h3>
           <p>Inicie um novo recrutamento e gerencie o processo seletivo da empresa.</p>
-          <button onClick={() => window.location.href = '/Recrutamento/criar'}>
+          <a href="/recrutamento/criar">
             Lista de Recrutamentos
-          </button>
+          </a>
         </div>
       </div>
     </div>

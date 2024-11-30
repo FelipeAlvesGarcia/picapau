@@ -4,6 +4,7 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import {useNavigate} from "react-router-dom";
 import './Cadastro.css';
+import logo from "../src/assets/images/logo-picapau.png";
 
 const Cadastro = () => {
   const [selectedRole, setSelectedRole] = useState("");
@@ -80,7 +81,7 @@ const Cadastro = () => {
     <div className="cadastro-container">
       <div className="cadastro-left">
         <img
-          src="src/assets/images/logo-picapau.png"
+          src={logo}
           alt="Logo Pica Pau Móveis"
           className="cadastro-logo"
         />

@@ -38,8 +38,8 @@ const Headeri = () => {
       </div>
 
       <nav className={`nav-links ${menuOpen ? 'open' : ''}`}>
-        <a href="/Recrutamento" className={`d-${display}`}>Recrutamentos</a>
-        <a href="/equipes" className={`d-${display}`}>Equipes</a>
+        <a href="/recrutamento" className={`d-${display}`}>Recrutamentos</a>
+        <a href="/equipe" className={`d-${display}`}>Equipes</a>
       </nav>
     </header>
   );

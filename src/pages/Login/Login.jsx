@@ -5,6 +5,7 @@ import axios from "axios";
 import {useNavigate} from "react-router-dom";
 import { Link } from 'react-router-dom';
 import './Login.css';
+import logo from "../src/assets/images/logo-picapau.png";
 
 const Login = () => {
 
@@ -40,7 +41,7 @@ const Login = () => {
     <div className="login-container">
       <div className="login-left">
         <img
-          src="src\assets\images\logo-picapau.png" 
+          src={logo} 
           alt="Logo Pica Pau Móveis"
           className="login-logo"
         />
@@ -60,7 +61,7 @@ const Login = () => {
             <button type="submit" className="login-button">Entrar</button>
           </form>
           <p className="signup-text">
-            Não tem uma conta? <Link to="/cadastro">Crie aqui</Link> {/* Usando Link para evitar recarregamento */}
+            Não tem uma conta? <Link to="/cadastro">Crie aqui</Link>
           </p>
         </div>
       </div>
